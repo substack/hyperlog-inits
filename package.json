@@ -14,11 +14,13 @@
     "through2": "^2.0.0"
   },
   "devDependencies": {
+    "covert": "^1.1.0",
     "hyperlog": "^4.2.1",
     "memdb": "^1.0.1",
     "tape": "^4.0.0"
   },
   "scripts": {
+    "coverage": "covert test/*.js",
     "test": "tape test/*.js"
   },
   "repository": {
