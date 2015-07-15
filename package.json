@@ -1,0 +1,40 @@
+{
+  "name": "hyperlog-inits",
+  "version": "1.0.0",
+  "description": "list the inits (originating documents) in a hyperlog feed",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "once": "^1.3.2",
+    "pump": "^1.0.0",
+    "read-only-stream": "^1.1.1",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "hyperlog": "^4.2.1",
+    "memdb": "^1.0.1",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/substack/hyperlog-inits.git"
+  },
+  "keywords": [
+    "heads",
+    "hyperlog",
+    "init",
+    "tails"
+  ],
+  "author": "substack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/substack/hyperlog-inits/issues"
+  },
+  "homepage": "https://github.com/substack/hyperlog-inits#readme"
+}

@@ -21,7 +21,7 @@ module.exports = function (log, opts, cb) {
     return ro;
     
     function write (row, enc, next) {
-        last = row.since;
+        last = row.change;
         if (row.links && row.links.length === 0) {
             if (inits) inits.push(row);
             this.push(row);
