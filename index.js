@@ -12,7 +12,7 @@ module.exports = function (log, opts, cb) {
     var inits = cb ? [] : null;
     cb = once(cb || noop);
     
-    var r = log.createReadStream(opts)
+    var r = log.createReadStream(opts);
     var last = -1;
     var tr = through.obj(write, end);
     var ro = readonly(tr);
